@@ -1,0 +1,127 @@
+/* Webfonts
+--------------------------------------------------*/
+
+@font-face {
+    font-family: 'HermesFB Thin';
+    src: url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-Thin.eot'); /* IE9 Compat Modes */
+    src: url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-Thin.woff') format('woff'), /* Modern Browsers */
+       url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-Thin.svg#fvtwyzegfh') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'HermesFB ThinItalic';
+    src: url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-ThinItalic.eot'); /* IE9 Compat Modes */
+    src: url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-ThinItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-ThinItalic.woff') format('woff'), /* Modern Browsers */
+       url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-ThinItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-ThinItalic.svg#098a191904482c3cdc498f23468fe62c') format('svg'); /* Legacy iOS */
+
+    font-style: italic;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'HermesFB Book';
+    src: url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-Book.eot'); /* IE9 Compat Modes */
+    src: url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-Book.woff') format('woff'), /* Modern Browsers */
+       url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-Book.svg#11c3a4b7a5f90e5db4fcfb86a48cd34a') format('svg'); /* Legacy iOS */
+
+    font-style:   normal;
+    font-weight:  400;
+}
+
+@font-face {
+    font-family: 'HermesFB Regular';
+    src: url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-Regular.eot'); /* IE9 Compat Modes */
+    src: url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-Regular.woff') format('woff'), /* Modern Browsers */
+       url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-Regular.svg#bxocimmyrq') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'HermesFB SemiBold';
+    src: url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-SemiBold.eot'); /* IE9 Compat Modes */
+    src: url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-SemiBold.woff') format('woff'), /* Modern Browsers */
+       url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-SemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-SemiBold.svg#cdyrrwzefz') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'HermesFB Bold';
+    src: url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-Bold.eot'); /* IE9 Compat Modes */
+    src: url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-Bold.woff') format('woff'), /* Modern Browsers */
+       url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('https://signerecommon.blob.core.windows.net/mcashcustomfonts/HermesFB-Bold.svg#qekavhzstc') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 700;
+}
+
+@media (max-width: 767px) {
+   img {
+     display: table;
+     margin: 0 auto;
+   }
+   .btn-primary {
+		margin-top:95px;
+   }
+}
+
+
+  body {
+	padding-top: 20px; 
+	padding-bottom: 20px;
+	font-family: "Arial Rounded MT", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: 200;
+}	
+h3{
+
+font-weight: 200;
+margin-bottom:17px;
+font-size: 22px;
+text-align: center;
+text-align: center;
+}
+
+
+.btn-primary {
+border-color: #64a498;
+background-color: #57b3a0;
+background-image: -webkit-linear-gradient(top, rgba(255,255,255,.35), rgba(255,255,255,0));
+background-image: -moz-linear-gradient(top, rgba(255,255,255,.35), rgba(255,255,255,0));
+background-image: -o-linear-gradient(top, rgba(255,255,255,.35), rgba(255,255,255,0));
+background-image: linear-gradient(to bottom, rgba(255,255,255,.35), rgba(255,255,255,0));
+color: #fff !important;
+line-height: 24px;
+padding: 9px 0;
+
+}
+
+.success-icon{
+	color:#95c11f;
+}
+
+.btn{
+	font-family: "HermesFB Book", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	font-size: 1.163em;
+text-align: center;
+	height:44px;
+}
+
+.btn-primary:hover{
+border-color: #64a498;
+background-color: #57b3a0;
+}

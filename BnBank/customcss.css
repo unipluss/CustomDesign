@@ -1,0 +1,152 @@
+
+body{font-family: "Arial Rounded MT", Arial, Helvetica, sans-serif;font-size: 12px;}
+
+#form_name_container{ display: none;}
+#top_info_container{ display: none;}
+#form_top_warning_container{ display: none;}
+#form_custom_name_container{
+display:block;
+font-size: 22px;
+text-align: center;}
+.goto-top-button{display:none;}
+#form_custom_name_container:before{ content: "Søk om mKREDITT";}
+.form-submit-button-label{display:none;}
+.form-submit-button-custom-label:before{ content: "Fortsett";}
+
+label{font-weight:normal}
+@media (max-width: 767px) {
+   img {
+     display: table;
+     margin: 0 auto;
+   }
+}.abort-button:hover{
+  border: 1px solid #cecece;
+  
+}
+.abort-button{
+	width:49%;  	
+    font-weight: 400;    
+    background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -ms-linear-gradient(top, #fafafa, #c3c3c3);
+    background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(100%, #c3c3c3));
+    background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -webkit-linear-gradient(top, #fafafa, #c3c3c3);
+    background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -moz-linear-gradient(top, #fafafa, #c3c3c3);
+    background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -o-linear-gradient(top, #fafafa, #c3c3c3);
+    -pie-background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), linear-gradient(top, #fafafa, #c3c3c3);
+    background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), linear-gradient(top, #fafafa, #c3c3c3);
+    border: 1px solid #cecece;
+	color: black;
+	text-decoration: none;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: middle;
+	/* zoom: 1; */
+	-webkit-border-radius: 6px 6px 6px 6px;
+	-moz-border-radius: 6px 6px 6px 6px;
+	-ms-border-radius: 6px 6px 6px 6px;
+	-o-border-radius: 6px 6px 6px 6px;
+	border-radius: 6px 6px 6px 6px;
+	background-color: #d2322d;
+	margin-top: 0px;
+	height: auto;
+	margin-right:0px;
+}
+.submit-button {
+  width:49%;
+  float: right!important;
+    -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid #87c52a;
+	color: white;
+	background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -ms-linear-gradient(top, #b9e368 0%, #619217 100%);
+	background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b9e368), color-stop(100%, #619217));
+	background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -webkit-linear-gradient(top, #b9e368 0%, #619217 100%);
+	background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -moz-linear-gradient(top, #b9e368 0%, #619217 100%);
+	background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -o-linear-gradient(top, #b9e368 0%, #619217 100%);
+	-pie-background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), linear-gradient(top, #b9e368 0%, #619217 100%);
+	background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), linear-gradient(top, #b9e368 0%, #619217 100%);
+}
+.submit-button:hover{	color: white;
+	background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -ms-linear-gradient(top, #b9e368 0%, #619217 100%);
+	background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b9e368), color-stop(100%, #619217));
+	background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -webkit-linear-gradient(top, #b9e368 0%, #619217 100%);
+	background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -moz-linear-gradient(top, #b9e368 0%, #619217 100%);
+	background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -o-linear-gradient(top, #b9e368 0%, #619217 100%);
+	-pie-background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), linear-gradient(top, #b9e368 0%, #619217 100%);
+	background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), linear-gradient(top, #b9e368 0%, #619217 100%);}
+
+.glyphicon-pencil{ display: none;}
+.glyphicon-remove{ display: none;}
+.btn-block+.btn-block {
+	margin-top: 0px;
+}
+
+/** Secureportal **/
+#secureportal-startsignapp-label{ display: none;}
+#contact_container{ display: none;}
+#secureportal-startsignapp-custom-label:before{ content: "Les og signer avtale";}
+#cancelsignapp_button{line-height: 1.03;}
+#startsignapp{line-height: 1.03;}
+#secureportal-custom-top-container:before{ 
+content: "Ved å signere avtalen aksepterer du at \A BN Bank foretar en standard kredittsjekk.";
+white-space: pre;}
+#secureportal-custom-top-container{margin-bottom:50px;font-weight:300;}
+.glyphicon-circle-arrow-left{ display: none;}
+#secureportal-document_description{ display: none;}
+#secureportal-document_title{font-size:22px;font-family: "Arial Rounded MT", Arial, Helvetica, sans-serif;text-align: center;}
+#sign_header_logo{
+	margin-top: 20px;
+	margin-left: 36%;
+margin-right: 36%;
+}
+#cancelsignapp_button{
+	width:49%;
+  	height: 35px;
+	font-size: 13px;
+    font-weight: 400;   
+    background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -ms-linear-gradient(top, #fafafa, #c3c3c3);
+    background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(100%, #c3c3c3));
+    background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -webkit-linear-gradient(top, #fafafa, #c3c3c3);
+    background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -moz-linear-gradient(top, #fafafa, #c3c3c3);
+    background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -o-linear-gradient(top, #fafafa, #c3c3c3);
+    -pie-background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), linear-gradient(top, #fafafa, #c3c3c3);
+    background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), linear-gradient(top, #fafafa, #c3c3c3);
+    border: 1px solid #cecece;
+	color: black;
+	text-decoration: none;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: middle;
+	/* zoom: 1; */
+	-webkit-border-radius: 6px 6px 6px 6px;
+	-moz-border-radius: 6px 6px 6px 6px;
+	-ms-border-radius: 6px 6px 6px 6px;
+	-o-border-radius: 6px 6px 6px 6px;
+	border-radius: 6px 6px 6px 6px;
+	background-color: #d2322d;	
+	margin-bottom: 0px;
+}
+#startsignapp{
+	width:49%;
+	height: 35px;
+	font-size: 13px;
+	float: right!important;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+	border: 1px solid #87c52a;
+	color: white;
+	background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -ms-linear-gradient(top, #b9e368 0%, #619217 100%);
+	background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b9e368), color-stop(100%, #619217));
+	background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -webkit-linear-gradient(top, #b9e368 0%, #619217 100%);
+	background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -moz-linear-gradient(top, #b9e368 0%, #619217 100%);
+	background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), -o-linear-gradient(top, #b9e368 0%, #619217 100%);
+	-pie-background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), linear-gradient(top, #b9e368 0%, #619217 100%);
+	background: url("https://signerecommon.blob.core.windows.net/bnbankcustomcssresources/grain.png"), linear-gradient(top, #b9e368 0%, #619217 100%);
+}
