@@ -316,27 +316,7 @@
                 </div>
               </div>
             </xsl:for-each>
-
-            <!--<xsl:if test="/GroupedForm/GroupedFormFieldGroups/GroupedFormFieldGroup/Fields/Field[ExternalId = 'dodsbo']/CalculatedFieldValue != 'Ja'">-->
-            <!--<div class="form-group col-12">
-              <div class="form-group inline col-6 fornavn">
-                <label>Selger 2 Fornavn</label>
-                <div class="value">
-                  <xsl:value-of select="/GroupedForm/GroupedFormFieldGroups/GroupedFormFieldGroup/Fields/Field[ExternalId = 'selger2fornavn']/CalculatedFieldValue"></xsl:value-of>
-                </div>
-              </div>
-
-              <div class="form-group inline col-6 etternavn">
-                <label>Selger 2 Etternavn</label>
-                <div class="value">
-                  <xsl:value-of select="/GroupedForm/GroupedFormFieldGroups/GroupedFormFieldGroup/Fields/Field[ExternalId = 'selger2etternavn']/CalculatedFieldValue"></xsl:value-of>
-                </div>
-              </div>
-            </div>-->
-            <!--row-->
-
-            <!--</xsl:if>-->
-            <!--!dødsbo-->
+            
           </div>
           <!--grey-box-->
 
