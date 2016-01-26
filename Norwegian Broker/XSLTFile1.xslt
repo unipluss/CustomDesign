@@ -465,15 +465,30 @@
           <!--row-->
 
           <div class="grey-box" style="page-break-inside: avoid;">
-            Jeg bekrefter at opplysningene er gitt etter beste skjønn. Jeg er kjent med at dersom jeg har gitt ufullstendige, uriktige eller<br/>
-            misvisende opplysninger om eiendommen, vil selskapet kunne søke hel eller delvis regress for sine utbetalinger eller redusere<br/>
-            sitt ansvar helt eller delvis, jfr.  vilkår for eierskifteforsikring punkt V4 og forsikringsavtaleloven kapittel 4.<br/>
-            Jeg er orientert om mitt mulige ansvar som selger etter avhendingsloven, eventuelt etter kjøpsloven (aksjeboliger),<br/>
-            og om AmTrust Europe Limited sitt eierskifteforsikringstilbud. Jeg er klar over at avtale om forsikring er bindende.<br/>
-            Premietilbudet som er gitt av megler er bindende for AmTrust Europe Limited i 6 – seks – måneder fra signering<br/>
-            av dette skjema, deretter vil premien kunne justeres.<br/>
-            Etter 6 måneder må egenerklæringsskjemaet signeres på nytt og eventuelle endringer påføres.<br/>
-            Det vil da være forsikringspremien på ny signeringsdato som legges til grunn.
+            <xsl:choose>
+              <xsl:when test="/GroupedForm/GroupedFormFieldGroups/GroupedFormFieldGroup/Fields/Field[ExternalId = '_co']/CalculatedFieldValue = '0'">
+                Jeg bekrefter at opplysningene er gitt etter beste skjønn. Jeg er kjent med at dersom jeg har gitt ufullstendige, uriktige eller<br/>
+                misvisende opplysninger om eiendommen, vil selskapet kunne søke hel eller delvis regress for sine utbetalinger eller redusere<br/>
+                sitt ansvar helt eller delvis, jfr.  vilkår for eierskifteforsikring punkt V4 og forsikringsavtaleloven kapittel 4.<br/>
+                Jeg er orientert om mitt mulige ansvar som selger etter avhendingsloven, eventuelt etter kjøpsloven (aksjeboliger),<br/>
+                og om AmTrust Europe Limited sitt eierskifteforsikringstilbud. Jeg er klar over at avtale om forsikring er bindende.<br/>
+                Premietilbudet som er gitt av megler er bindende for AmTrust Europe Limited i 6 – seks – måneder fra signering<br/>
+                av dette skjema, deretter vil premien kunne justeres.<br/>
+                Etter 6 måneder må egenerklæringsskjemaet signeres på nytt og eventuelle endringer påføres.<br/>
+                Det vil da være forsikringspremien på ny signeringsdato som legges til grunn.
+              </xsl:when>
+              <xsl:when test="/GroupedForm/GroupedFormFieldGroups/GroupedFormFieldGroup/Fields/Field[ExternalId = '_co']/CalculatedFieldValue = '1'">
+                Jeg bekrefter at opplysningene er gitt etter beste skjønn. Jeg er kjent med at dersom jeg har gitt ufullstendige, uriktige eller<br/>
+                misvisende opplysninger om eiendommen, vil selskapet kunne søke hel eller delvis regress for sine utbetalinger eller redusere<br/>
+                sitt ansvar helt eller delvis, jfr. vilkår for eierskifteforsikring punkt 6.1- og forsikringsavtaleloven kapittel 4.<br/>
+                Jeg er orientert om mitt mulige ansvar som selger etter avhendingsloven, eventuelt etter kjøpsloven (aksjeboliger),<br/>
+                og om International Insurance Company of Hannover SE sitt eierskifteforsikringstilbud. Jeg er klar over at avtale om forsikring er bindende. <br/>
+                Premietilbudet som er gitt av megler er bindende for International Insurance Company of Hannover SE i 6 – seks – måneder fra signering <br/>
+                av dette skjema, deretter vil premien kunne justeres.<br/>
+                Etter 6 måneder må egenerklæringsskjemaet signeres på nytt og eventuelle endringer påføres.<br/>
+                Det vil da være forsikringspremien på ny signeringsdato som legges til grunn.
+              </xsl:when>
+            </xsl:choose>
           </div>
 
           <div class="grey-box" style="page-break-inside: avoid;">

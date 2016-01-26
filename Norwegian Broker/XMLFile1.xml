@@ -3067,7 +3067,7 @@
           <ShowFieldInPdf>true</ShowFieldInPdf>
           <ShowFieldInHtml>true</ShowFieldInHtml>
           <Tabindex>0</Tabindex>
-          <CalculatedFieldValue>1</CalculatedFieldValue>
+          <CalculatedFieldValue>0</CalculatedFieldValue>
           <Group d6p1:nil="true" xmlns:d6p1="http://www.w3.org/2001/XMLSchema-instance" />
           <Disabled>false</Disabled>
           <Readonly>false</Readonly>
