@@ -83,6 +83,7 @@
 
           .head { width: 100%; float: left; overflow: hidden; margin-top: 10px;  }
 
+          .not-dodsbo { position: relative; background-color: white; width: 100%; overflow: hidden; float: left; }
           .is-dodsbo { position: relative; background-color: white; width: 100%; overflow: hidden; float: left; color: #aaa; }
           .is-dodsbo::after {
           color: red;
@@ -316,11 +317,11 @@
                 </div>
               </div>
             </xsl:for-each>
-            
+
           </div>
           <!--grey-box-->
 
-          <div class="">
+          <div class="not-dodsbo">
             <xsl:if test="/GroupedForm/GroupedFormFieldGroups/GroupedFormFieldGroup/Fields/Field[ExternalId = 'dodsbo']/CalculatedFieldValue = 'Ja'">
               <xsl:attribute name="class">is-dodsbo</xsl:attribute>
             </xsl:if>
@@ -431,6 +432,7 @@
             </label>
             <div class="value">
               <xsl:value-of disable-output-escaping="yes" select="/GroupedForm/GroupedFormFieldGroups/GroupedFormFieldGroup/Fields/Field[ExternalId = 'kommentar']/CalculatedFieldValue"></xsl:value-of>
+              <xsl:comment></xsl:comment>
             </div>
           </div>
           <!--row-->
@@ -523,7 +525,11 @@
 
                 <div class="print-signature-field">
                   <label>
-                    Signatur selger 1 (<span class="firstname"><xsl:value-of select="/GroupedForm/GroupedFormFieldGroups/GroupedFormFieldGroup/Fields/Field[ExternalId = 'selger1fornavn']/CalculatedFieldValue" /></span> <span class="lastname"><xsl:value-of select="/GroupedForm/GroupedFormFieldGroups/GroupedFormFieldGroup/Fields/Field[ExternalId = 'selger1etternavn']/CalculatedFieldValue" /></span>)
+                    Signatur selger 1 (<span class="firstname">
+                      <xsl:value-of select="/GroupedForm/GroupedFormFieldGroups/GroupedFormFieldGroup/Fields/Field[ExternalId = 'selger1fornavn']/CalculatedFieldValue" />
+                    </span> <span class="lastname">
+                      <xsl:value-of select="/GroupedForm/GroupedFormFieldGroups/GroupedFormFieldGroup/Fields/Field[ExternalId = 'selger1etternavn']/CalculatedFieldValue" />
+                    </span>)
                   </label>
                 </div>
 
@@ -535,7 +541,11 @@
                       <xsl:attribute name="class">print-signature-field-right</xsl:attribute>
                     </xsl:if>
                     <label>
-                      Signatur selger <xsl:value-of select="$index" /> (<span class="firstname"><xsl:value-of select="FirstName" /></span> <span class="lastname"><xsl:value-of select="LastName" /></span>)
+                      Signatur selger <xsl:value-of select="$index" /> (<span class="firstname">
+                        <xsl:value-of select="FirstName" />
+                      </span> <span class="lastname">
+                        <xsl:value-of select="LastName" />
+                      </span>)
                     </label>
                   </div>
 
