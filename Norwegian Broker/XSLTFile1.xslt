@@ -10,9 +10,9 @@
           EGENERKLÆRINGSSKJEMA
         </title>
         <style type="text/css">
-          html {font-family: Calibri;margin: 0;}
-          body {margin: 0; }
-          #page {width: 100%; font-size: 12pt; color: black;}
+          html {font-family: Calibri;margin: 0;background-color: white;}
+          body {margin: 0;background-color: white;}
+          #page {width: 100%; font-size: 12pt; color: black;background-color: white;}
           #pageheader {width: 100%;margin-bottom: 30px;}
           #logo {float: right;}
           #logo img {max-width: 200px; max-height: 80px;}
@@ -338,8 +338,8 @@
                         and ExternalId != 'selger2fornavn' and ExternalId != 'selger2etternavn'
                         and ExternalId != 'by' and ExternalId != 'bz' and ExternalId != 'ca' and ExternalId != 'cb'
                         and ExternalId != 'kommentar' and ExternalId != 'eierskifteforsikring' and ExternalId != 'vilkar'
-                        and ExternalId != '_co' and ExternalId != '_m' and ExternalId != '_useremail') 
-                        and ShowFieldInPdf = 'true'">
+                        and ExternalId != '_co' and ExternalId != '_m' and ExternalId != '_useremail'
+                        and ExternalId != '_megler' and ExternalId != '_megleremail') and ShowFieldInPdf = 'true'">
                   <div class="form-group col-12">
                     <xsl:if test="FieldType = 'textfield' or FieldType = 'number'">
                       <xsl:attribute name="class">form-group inline col-12 label-left label-font-normal label-wide</xsl:attribute>
