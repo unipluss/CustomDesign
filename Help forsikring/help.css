@@ -1,0 +1,7 @@
+body{
+	background-color: #fff !important;	
+}
+.loading_container {
+	border: 1px solid !important;
+	border-color: rgb(187, 187, 187) !important;
+}
